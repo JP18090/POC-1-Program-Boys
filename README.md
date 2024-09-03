@@ -34,41 +34,41 @@
 <h3 id="display">display</h3>
     <p>Define um elemento como um container flexível.</p>
     
-<h3 id="flex-direction">flex-direction</h3>
+<h3 id="flex-direction">Flex-direction</h3>
     <p>Determina a direção na qual os itens flexíveis são colocados dentro do container.</p>
     
-<h3 id="flex-wrap">flex-wrap</h3>
+<h3 id="flex-wrap">Flex-wrap</h3>
     <p>Controla se os itens flexíveis devem ou não quebrar para uma nova linha.</p>
     
-<h3 id="flex-flow">flex-flow</h3>
+<h3 id="flex-flow">Flex-flow</h3>
     <p>É uma propriedade abreviada para `flex-direction` e `flex-wrap`.</p>
     
-<h3 id="justify-content">justify-content</h3>
+<h3 id="justify-content">Justify-content</h3>
     <p>Alinha os itens ao longo do eixo principal.</p>
     
-<h3 id="align-items">align-items</h3>
+<h3 id="align-items">Align-items</h3>
     <p>Alinha os itens ao longo do eixo transversal.</p>
     
-<h3 id="align-content">align-content</h3>
+<h3 id="align-content">Align-content</h3>
     <p>Alinha as linhas flexíveis quando há espaço extra no eixo transversal.</p>
 
 <h2 id="itens-flexiveis">Propriedades dos Itens Flexíveis (Flex Items)</h2>
-<h3 id="order">order</h3>
+<h3 id="order">Order</h3>
     <p>Define a ordem dos itens dentro do container flexível.</p>
 
-<h3 id="flex-grow">flex-grow</h3>
+<h3 id="flex-grow">Flex-grow</h3>
     <p>Define a capacidade de um item de crescer para preencher o espaço extra no container.</p>
 
-<h3 id="flex-shrink">flex-shrink</h3>
+<h3 id="flex-shrink">Flex-shrink</h3>
     <p>Define a capacidade de um item de encolher quando o espaço é insuficiente no container.</p>
 
-<h3 id="flex-basis">flex-basis</h3>
+<h3 id="flex-basis">Flex-basis</h3>
     <p>Define o tamanho inicial do item antes de o espaço restante ser distribuído.</p>
 
-<h3 id="flex">flex</h3>
+<h3 id="flex">Flex</h3>
     <p>É uma propriedade abreviada para `flex-grow`, `flex-shrink` e `flex-basis`.</p>
 
-<h3 id="align-self">align-self</h3>
+<h3 id="align-self">Align-self</h3>
     <p>Permite que um item se alinhe de forma diferente dos outros itens no eixo transversal.</p>
 
 <h2 id="como-usar">Como Usar o Flexbox</h2>
