@@ -72,8 +72,5 @@
 <h3 id="align-self">Align-self</h3>
     <p>Permite que um item se alinhe de forma diferente dos outros itens no eixo transversal.</p>
 
-<h2 id="como-usar">Como Usar o Flexbox</h2>
-<h3 id="exemplo-basico">Exemplo Básico</h3>
-    <p>Para usar o Flexbox, aplique a propriedade `display: flex` ao elemento pai (container).</p>
 </body>
 </html>
