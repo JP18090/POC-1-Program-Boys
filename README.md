@@ -3,30 +3,30 @@
 <body>
     <p>O Flexbox (Flexible Box Layout) é um modelo de layout poderoso e eficiente no CSS, projetado para distribuir espaço entre itens de uma interface e melhorar o alinhamento de conteúdo. Ele é ideal para construir layouts responsivos e dinâmicos. Abaixo estão as principais propriedades do Flexbox, divididas entre as propriedades do container flexível e dos itens flexíveis.</p>
     <ol>
-        <li><strong>Propriedades do Container Flexível (Flex Container)</strong>
+        <li><strong><a href="#container-flexivel">Propriedades do Container Flexível (Flex Container)</a></strong>
             <ul>
-                <li>display</li>
-                <li>flex-direction</li>
-                <li>flex-wrap</li>
-                <li>flex-flow</li>
-                <li>justify-content</li>
-                <li>align-items</li>
-                <li>align-content</li>
+                <li><a href="#display">display</a></li>
+                <li><a href="#flex-direction">flex-direction</a></li>
+                <li><a href="#flex-wrap">flex-wrap</a></li>
+                <li><a href="#flex-flow">flex-flow</a></li>
+                <li><a href="#justify-content">justify-content</a></li>
+                <li><a href="#align-items">align-items</a></li>
+                <li><a href="#align-content">align-content</a></li>
             </ul>
         </li>
-        <li><strong>Propriedades dos Itens Flexíveis (Flex Items)</strong>
+        <li><strong><a href="#itens-flexiveis">Propriedades dos Itens Flexíveis (Flex Items)</a></strong>
             <ul>
-                <li>order</li>
-                <li>flex-grow</li>
-                <li>flex-shrink</li>
-                <li>flex-basis</li>
-                <li>flex</li>
-                <li>align-self</li>
+                <li><a href="#order">order</a></li>
+                <li><a href="#flex-grow">flex-grow</a></li>
+                <li><a href="#flex-shrink">flex-shrink</a></li>
+                <li><a href="#flex-basis">flex-basis</a></li>
+                <li><a href="#flex">flex</a></li>
+                <li><a href="#align-self">align-self</a></li>
             </ul>
         </li>
-        <li><strong>Como Usar o Flexbox</strong>
+        <li><strong><a href="#como-usar">Como Usar o Flexbox</a></strong>
             <ul>
-                <li>Exemplo Básico</li>
+                <li><a href="#exemplo-basico">Exemplo Básico</a></li>
             </ul>
         </li>
     </ol>
