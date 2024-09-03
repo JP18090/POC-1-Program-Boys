@@ -31,7 +31,7 @@
         </li>
     </ol>
 <h2 id="container-flexivel">Propriedades do Container Flexível (Flex Container)</h2>
-<h3 id="display">display</h3>
+<h3 id="display">Display</h3>
     <p>Define um elemento como um container flexível.</p>
     
 <h3 id="flex-direction">Flex-direction</h3>
