@@ -7,11 +7,29 @@ body {
     background-color: #caeff1;
     color: #333;
 }
+.imagemDoCodigo{
+    height: 100px;
+}
 .imagem{
     height: 150px;
 }
+.logo{
+    height: 150px;
+}
+.order{
+    height: 200px;
+}
 .banner{
     height: 300px;
+}
+.align-items{
+    height: 350px;
+}
+.justify-contentimg{
+    height: 400px;
+}
+.justify-content{
+    height: 450px;
 }
 /* Estilo do título principal */
 h1 {
@@ -66,7 +84,7 @@ a {
 }
 
 a:hover {
-    color: #ff0000;
+    color: #1abc9c;
 }
 
 /* Estilo dos links fortes */
