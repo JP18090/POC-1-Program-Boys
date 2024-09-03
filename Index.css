@@ -7,7 +7,12 @@ body {
     background-color: #caeff1;
     color: #333;
 }
-
+.imagem{
+    height: 150px;
+}
+.banner{
+    height: 300px;
+}
 /* Estilo do título principal */
 h1 {
     font-size: 2em;
@@ -61,7 +66,7 @@ a {
 }
 
 a:hover {
-    color: #1abc9c;
+    color: #ff0000;
 }
 
 /* Estilo dos links fortes */
