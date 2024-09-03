@@ -1,4 +1,5 @@
 # POC-1-Program-Boys
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p>O Flexbox (Flexible Box Layout) é um modelo de layout poderoso e eficiente no CSS, projetado para distribuir espaço entre itens de uma interface e melhorar o alinhamento de conteúdo. Ele é ideal para construir layouts responsivos e dinâmicos. Abaixo estão as principais propriedades do Flexbox, divididas entre as propriedades do container flexível e dos itens flexíveis.</p>
