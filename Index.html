@@ -1,17 +1,12 @@
 <!DOCTYPE HTML>
 
-<link rel="stylesheet" type = "text/css" href="css.css">
+<link rel="stylesheet" href="Index.css">
 <html lang = "pt">
-    
-<head>
-    
-    <title> poc </title>
-    
 </head>
 <body>
-    <img class="imagem" src="https://cdn.discordapp.com/attachments/1280316897656569888/1280331568958935102/image.png?ex=66d7b131&is=66d65fb1&hm=5ab188e4f478eabbb17ba1eee6d1ee0bfda66e742525be464f85a4db0456141c&">
+    <img class="logo" src="https://cdn.discordapp.com/attachments/1280316897656569888/1280331568958935102/image.png?ex=66d7b131&is=66d65fb1&hm=5ab188e4f478eabbb17ba1eee6d1ee0bfda66e742525be464f85a4db0456141c&">
     <img class="banner" src="https://cdn.discordapp.com/attachments/1280316897656569888/1280330637441503272/image.png?ex=66d7b053&is=66d65ed3&hm=678becab57cf73ed3062629bde1d7ce5b300185d2a8ae0796143881dcc155ead&">
-    <h1>POC 1 Program Boys</h1>
+    <h1>POC-1-Program-Boys</h1>
     <p>O Flexbox (Flexible Box Layout) é um modelo de layout poderoso e eficiente no CSS, projetado para distribuir espaço entre itens de uma interface e melhorar o alinhamento de conteúdo. Ele é ideal para construir layouts responsivos e dinâmicos. Abaixo estão as principais propriedades do Flexbox, divididas entre as propriedades do container flexível e dos itens flexíveis.</p>
     <ol>
         <li><strong><a href="#container-flexivel">Propriedades do Container Flexível (Flex Container)</a></strong>
@@ -44,46 +39,114 @@
 <h2 id="container-flexivel">Propriedades do Container Flexível (Flex Container)</h2>
 <h3 id="display">Display</h3>
     <p>Define um elemento como um container flexível.</p>
-    
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagem" src="https://css-tricks.com/wp-content/uploads/2018/10/01-container.svg">
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280653328384135179/image.png?ex=66d8dcda&is=66d78b5a&hm=f6a6b153a12d836e75a978e29d8c325d4fb30b1942f8bf1dc4baff3c8d3c731f&">
+
 <h3 id="flex-direction">Flex-direction</h3>
     <p>Determina a direção na qual os itens flexíveis são colocados dentro do container.</p>
-    
-<h3 id="flex-wrap">Flex-wrap</h3>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagem" src="https://css-tricks.com/wp-content/uploads/2018/10/flex-direction.svg">
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280654715574816820/image.png?ex=66d8de25&is=66d78ca5&hm=35ead55a84509e60ac0a397f85ca0e11bdaa1e65fbe651e09789d087940577c2&">
+    <p> row(padrão): Da esquerda para a direita lateralmente; da direita para a esquerda lateralmente <br>
+        row-reverse: Da direita para a esquerda lateralmente; da esquerda para a direita lateralmente <br>
+        column: O mesmo que row, mas de cima para baixo <br>
+        column-reverse: O mesmo que, row-reversemas de baixo para cima
+    </p>
+
+    <h3 id="flex-wrap">Flex-wrap</h3>
     <p>Controla se os itens flexíveis devem ou não quebrar para uma nova linha.</p>
-    
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagem" src="https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg">
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280656144624386068/image.png?ex=66d8df7a&is=66d78dfa&hm=dc97156e82c2dfd7792771bdb542ee92e7b8a7b224638e69e6f6c8b831a40355&">
+    <p> nowrap(padrão): Tdos os itens flexíveis estarão em uma linha <br>
+        wrap: Os itens flexíveis serão agrupados em várias linhas, de cima para baixo. <br>
+        wrap-reverse: Os itens flexíveis serão agrupados em várias linhas de baixo para cima. <br>
+    </p>
 <h3 id="flex-flow">Flex-flow</h3>
     <p>É uma propriedade abreviada para `flex-direction` e `flex-wrap`.</p>
-    
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280657325392396422/image.png?ex=66d8e093&is=66d78f13&hm=1efca1ccbea2cbe9dbeedd982ee0a8f3b6e6556e3e2c53b21b2e0d4bfab72d53&">
+
 <h3 id="justify-content">Justify-content</h3>
     <p>Alinha os itens ao longo do eixo principal.</p>
-    
+    <p>flex-start(padrão): Os itens são compactados em direção ao início da direção flexível. <br>
+        flex-end: Os itens são compactados em direção ao final da direção flexível. <br>
+        start: Os itens são embalados em direção ao início da writing-modedireção. <br>
+        end: Os itens são embalados no final da writing-modedireção. <br>
+        left: Os itens são compactados em direção à borda esquerda do contêiner, a menos que isso não faça sentido com o flex-direction, então ele se comporta como start. <br>
+        right: Os itens são compactados em direção à borda direita do contêiner, a menos que isso não faça sentido com o flex-direction, então ele se comporta como end. <br>
+        center: Os itens são centralizados ao longo da linha <br>
+        space-between: Os itens são distribuídos uniformemente na linha; o primeiro item está na linha inicial, o último item na linha final <br>
+        space-around: Os itens são distribuídos uniformemente na linha com espaço igual ao redor deles. <br>
+        space-evenly: Os itens são distribuídos de modo que o espaçamento entre dois itens (e o espaço até as bordas) seja igual. <br>
+    </p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="justify-content" src="https://css-tricks.com/wp-content/uploads/2018/10/justify-content.svg">
+    <img class="justify-contentimg" src="https://cdn.discordapp.com/attachments/752989824561971404/1280659540781563915/image.png?ex=66d8e2a4&is=66d79124&hm=d44a4a7a9aa4d169362cbe95e6a1092c923bcff3e1eff0ef0330a4cf0ad1bc12&">
+
 <h3 id="align-items">Align-items</h3>
     <p>Alinha os itens ao longo do eixo transversal.</p>
-    
+    <p> stretch(padrão): Esticar para preencher o contêiner (ainda respeitar min-width/max-width) <br>
+        flex-start/ start/ self-start: Os itens são colocados no início do eixo transversal.  <br>
+        flex-end/ end/ self-end: Os itens são colocados no final do eixo transversal. <br>
+        center: Os itens são centralizados no eixo transversal <br>
+        baseline: Os itens são alinhados conforme suas linhas de base se alinham <br>
+    </p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="align-items" src="https://css-tricks.com/wp-content/uploads/2018/10/align-items.svg">
+    <img class="align-items" src="https://cdn.discordapp.com/attachments/752989824561971404/1280661571512565771/image.png?ex=66d8e488&is=66d79308&hm=d1480f2a8def991994ab9cf9a78ab653512d9284deab99f149dffd7953383e40&">
+
 <h3 id="align-content">Align-content</h3>
     <p>Alinha as linhas flexíveis quando há espaço extra no eixo transversal.</p>
+    <p>normal(padrão): Os itens são compactados em sua posição padrão como se nenhum valor tivesse sido definido. <br>
+        flex-start/ start: Itens compactados no início do contêiner. O (mais suportado) flex-starthonra o flex-directionenquanto starthonra a writing-modedireção. <br>
+        flex-end/ end: Itens compactados até o final do contêiner. O (mais suporte) flex-endhonra o flex-directionenquanto o final honra a writing-modedireção. <br>
+        center: Itens centralizados no contêiner <br>
+        space-between: Itens distribuídos uniformemente; a primeira linha está no início do contêiner, enquanto a última está no final <br>
+        space-around: Itens distribuídos uniformemente com espaço igual ao redor de cada linha <br>
+        space-evenly: Os itens são distribuídos uniformemente com espaço igual ao redor deles <br>
+        stretch: As linhas se esticam para ocupar o espaço restante <br>
+    </p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="justify-content" src="https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg">
+    <img class="justify-contentimg" src="https://cdn.discordapp.com/attachments/752989824561971404/1280665116848947311/image.png?ex=66d8e7d5&is=66d79655&hm=20e921c52850ea5eb84aa4fedb32228694aa09c96cdf429b7b633732ba7311ba&">
 
 <h2 id="itens-flexiveis">Propriedades dos Itens Flexíveis (Flex Items)</h2>
+    <img class="imagem" src="https://css-tricks.com/wp-content/uploads/2018/10/02-items.svg">
+
 <h3 id="order">Order</h3>
     <p>Define a ordem dos itens dentro do container flexível.</p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="order" src="https://css-tricks.com/wp-content/uploads/2018/10/order.svg">
+    <img class="imagem" src="https://cdn.discordapp.com/attachments/752989824561971404/1280666748365963336/image.png?ex=66d8e95a&is=66d797da&hm=ebdd57837888f4d34ee1da4cc26ba4ecc297ded4e6d06c75e51e49d525dd9f6c&">
 
 <h3 id="flex-grow">Flex-grow</h3>
     <p>Define a capacidade de um item de crescer para preencher o espaço extra no container.</p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="order" src="https://css-tricks.com/wp-content/uploads/2018/10/flex-grow.svg">
+    <img class="imagem" src="https://cdn.discordapp.com/attachments/752989824561971404/1280667769494573116/image.png?ex=66d8ea4d&is=66d798cd&hm=d45fda090553b829e4a9b218ae42493a98802510491461cb33cac0576203aac0&">
 
 <h3 id="flex-shrink">Flex-shrink</h3>
     <p>Define a capacidade de um item de encolher quando o espaço é insuficiente no container.</p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280668992427524228/image.png?ex=66d8eb71&is=66d799f1&hm=6e3ec9da97a5c2ca6c3e3d5c89591326b6e33800de13f90461d3a923ae24f962&">
 
 <h3 id="flex-basis">Flex-basis</h3>
     <p>Define o tamanho inicial do item antes de o espaço restante ser distribuído.</p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280669904667676774/image.png?ex=66d8ec4a&is=66d79aca&hm=72587156326f8eb2e53b0c3ec00089c0bdab3a132b74c628cf99ca23176f827d&">
 
 <h3 id="flex">Flex</h3>
     <p>É uma propriedade abreviada para `flex-grow`, `flex-shrink` e `flex-basis`.</p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="imagemDoCodigo" src="https://cdn.discordapp.com/attachments/752989824561971404/1280670438392991744/image.png?ex=66d8ecca&is=66d79b4a&hm=b30da4fafaa89334bab38d4ff877bc0fc5ed68afddb38f71a6f872a0a1ff4562&">
 
 <h3 id="align-self">Align-self</h3>
     <p>Permite que um item se alinhe de forma diferente dos outros itens no eixo transversal.</p>
+    <p> podemos ver sua ilustração tanto de como seu codigo deve ficar quanto seu conteiner a partir das imagems a baixo:</p>
+    <img class="order"  src="https://css-tricks.com/wp-content/uploads/2018/10/align-self.svg">
+    <img class="imagem"src="https://cdn.discordapp.com/attachments/752989824561971404/1280670945295597635/image.png?ex=66d8ed43&is=66d79bc3&hm=fc3a457dcc4fa2ab68c51a331ae8d59f1c8c75dd39791cea291b109d6dedca61&">
 
-<h2 id="como-usar">Como Usar o Flexbox</h2>
-<h3 id="exemplo-basico">Exemplo Básico</h3>
-    <p>Para usar o Flexbox, aplique a propriedade `display: flex` ao elemento pai (container).</p>
 </body>
 </html>
