@@ -1,4 +1,3 @@
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,30 +6,35 @@ body {
     background-color: #caeff1;
     color: #333;
 }
-.imagemDoCodigo{
-    height: 100px;
-}
-.imagem{
-    height: 150px;
-}
 .logo{
-    height: 150px;
+    height: 48px;
+     display: flex;
+                 align-content: flex-start;
+    right: 19px;
+                 margin: auto;
+                 padding: 0.1em;
+                 background-color: #ffffff;
+                 border: 0.17em solid black;
+                 border-radius: 0.25em;
+                 border-color: #4500cd;
+                 cursor: pointer;
+                 text-decoration: none;
+                 position: fixed;
+
 }
-.order{
-    height: 200px;
+
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 11em; 
+            width: 100%;
+             margin: 0;
+            padding: 0;
+            border-radius: 0.25em;
+            background-color: #f0f0f0;   
 }
-.banner{
-    height: 300px;
-}
-.align-items{
-    height: 350px;
-}
-.justify-contentimg{
-    height: 400px;
-}
-.justify-content{
-    height: 450px;
-}
+     
 /* Estilo do título principal */
 h1 {
     font-size: 2em;
@@ -84,7 +88,7 @@ a {
 }
 
 a:hover {
-    color: #1abc9c;
+    color: #ff0000;
 }
 
 /* Estilo dos links fortes */
@@ -95,4 +99,23 @@ strong a {
 
 strong a:hover {
     color: #1abc9c;
+}
+
+.imagemDoCodigo{
+    height: 100px;
+}
+.imagem{
+    height: 150px;
+}
+.order{
+    height: 200px;
+}
+.align-items{
+    height: 350px;
+}
+.justify-contentimg{
+    height: 400px;
+}
+.justify-content{
+    height: 450px;
 }
