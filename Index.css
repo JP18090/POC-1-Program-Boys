@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    background-color: #caeff1;
+    color: #333;
+}
+.logo{
+    height: 48px;
+     display: flex;
+                 align-content: flex-start;
+    right: 19px;
+                 margin: auto;
+                 padding: 0.1em;
+                 background-color: #ffffff;
+                 border: 0.17em solid black;
+                 border-radius: 0.25em;
+                 border-color: #4500cd;
+                 cursor: pointer;
+                 text-decoration: none;
+                 position: fixed;
+
+}
+
+        .banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 11em; 
+            width: 100%;
+             margin: 0;
+            padding: 0;
+            border-radius: 0.25em;
+            background-color: #f0f0f0;   
+}
+     
+/* Estilo do título principal */
+h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos subtítulos */
+h2 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 30px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #5d6d7e;
+    margin-top: 20px;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+}
+
+/* Estilos dos parágrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilo da lista ordenada */
+ol {
+    margin-left: 20px;
+}
+
+ol ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+ol ul li {
+    margin: 5px 0;
+}
+
+/* Estilos dos links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+/* Estilo dos links fortes */
+strong a {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+strong a:hover {
+    color: #1abc9c;
+}
+
+.imagemDoCodigo{
+    height: 100px;
+}
+.imagem{
+    height: 150px;
+}
+.order{
+    height: 200px;
+}
+.align-items{
+    height: 350px;
+}
+.justify-contentimg{
+    height: 400px;
+}
+.justify-content{
+    height: 450px;
+}
